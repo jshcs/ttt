@@ -1,3 +1,6 @@
+import numpy as np
+import copy
+from utils import *
 class MMTree():
     def __init__(self,ttt,node,left,r,c):
         self.ttt=ttt
